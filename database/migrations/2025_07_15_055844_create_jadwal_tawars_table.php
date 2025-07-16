@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('klpk_2', 15)->nullable();
             $table->integer('kdds');
             $table->integer('kdds2')->nullable();
-            $table->tinyInteger('jmax')->default(0);
-            $table->tinyInteger('jsisa')->default(0);
+            $table->integer('jmax')->default(0);
+            $table->integer('jsisa')->default(0);
             $table->tinyInteger('id_hari1');
             $table->tinyInteger('id_hari2');
             $table->tinyInteger('id_hari3');

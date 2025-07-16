@@ -1,0 +1,1000 @@
+"id","nama","nama2","id_jenis_makul","id_fakultas","kapasitas","kap_ujian","status","luas","kondisi","jumlah"
+1,AULA,AULA,12,Z,400,200,1,"100",,
+2,B.2.1,B.2.1,11,E,45,25,2,"48","1",1
+3,B.2.2,B.2.2,11,E,45,25,2,"48","1",1
+4,B.2.3,B.2.3,11,E,55,25,2,"81","1",1
+5,DOSEN ELEKTRO,DOSEN ELEKTRO,11,E,33,20,2,"35","1",1
+6,C.3.1,C.3.01,11,B,50,30,1,"56","1",1
+7,C.3.2,C.3.02,11,B,45,20,1,"42","1",1
+8,C.3.3,C.3.03,11,B,50,30,1,"49","1",1
+9,C.3.4,C.3.04,11,B,45,20,1,"48","1",1
+10,C.3.5,C.3.05,11,B,50,30,1,"15","1",1
+11,C.4.1,C.4.1,11,D,50,30,1,"52","1",1
+12,C.4.2,C.4.02,11,D,30,25,1,"38,5","1",1
+13,C.4.3,C.4.3,11,D,50,30,1,"64","1",1
+14,C.4.4,C.4.04,11,D,45,30,1,"48","1",1
+15,C.5.1,C.5.1,11,D,40,0,1,"72","1",1
+16,RUANG SERBAGUNA,RUANG SERBAGUNA,11,D,40,25,1,"20","1",1
+17,D.1.AN,"D.1.AN
+",11,A,50,20,0,"0",,
+18,D.1.GMB,"D.1.GMB
+",24,A,55,20,0,"0",,
+19,D.2.A,D.2.A,21,Z,40,40,1,"86","1",1
+20,D.2.B,D.2.B,21,Z,41,40,1,"92","1",1
+21,D.2.C,D.2.C,21,Z,40,40,1,"92","1",1
+22,D.2.D,D.2.D,21,Z,41,40,1,"92","1",1
+23,D.2.E,D.2.E,21,Z,40,40,1,"126","1",1
+24,D.2.F,D.2.F,21,Z,40,40,1,"21","1",1
+25,D.2.G,D.2.G,21,Z,40,40,1,"86","1",1
+26,D.2.H,D.2.H,21,Z,40,40,1,"71","1",1
+27,D.2.I,D.2.I,21,Z,40,40,1,"71","1",1
+28,D.2.J,D.2.J,21,Z,40,40,1,"71","1",1
+29,D.2.K,D.2.K,21,Z,40,40,1,"71","1",1
+30,LAB. KKPMT,LAB. KKPMT,11,B,45,20,2,"63","1",1
+31,D.3.2,D.3.2,11,D,46,20,2,"36","1",1
+32,D.3.3,D.3.3,11,B,45,20,2,"42","1",1
+33,D.3.4,D.3.4,11,B,45,30,1,"49","1",1
+34,R. LAB PROMKES,R. LAB PROMKES,11,B,20,20,1,"36","1",1
+35,D.3.6,D.3.6,11,B,45,30,0,"36","1",1
+36,D.3.7,D.3.7,11,A,50,30,0,"47","1",1
+37,D.4.,D.4.,11,D,50,20,1,"30",,
+38,D.4.1,D.4.01,11,A,45,20,1,"42","1",1
+39,D.4.11,D.4.11,11,A,45,20,2,"43","1",1
+40,D.4.12,D.4.12,11,A,45,20,2,"43","1",1
+41,D.4.13,D.4.13,11,A,45,20,2,"43","1",1
+42,D.4.14,D.4.14,11,D,50,25,1,"56","1",1
+43,D.4.15,D.4.15,11,A,50,25,1,"57","1",1
+44,D.4.2,D.4.02,11,A,45,20,1,"42","1",1
+45,D.4.3,D.4.03,11,A,45,20,1,"49","1",1
+46,D.4.4,D.4.04,11,A,45,20,1,"42","1",1
+47,D.4.5,D.4.05,11,A,45,20,1,"49","1",1
+48,D.4.6,D.4.06,11,A,45,20,1,"42","1",1
+49,D.4.7A,D.4.7A,11,A,25,20,2,"",,
+50,D.4.7B,D.4.7B,11,A,25,20,2,"",,
+51,D.5.1,D.5.1,11,A,45,20,1,"43","1",1
+52,D.5.GMB,D.5.GMB,11,A,45,20,1,"41","1",1
+53,D.5.GMB 2,D.5.GMB 2,11,A,45,20,1,"41","1",1
+54,D.5.12,D.5.12,11,A,45,20,1,"41","1",1
+55,LAB Esport,LAB Esport,11,A,46,20,1,"41","1",1
+56,D.5.14,D.5.14,11,A,45,20,2,"45","1",1
+57,D.5.15,D.5.15,11,A,45,20,2,"43","1",1
+58,D.5.16,D.5.16,11,A,45,20,2,"43","1",1
+59,D.5.17,D.5.17,11,A,45,20,2,"43","1",1
+60,D.5.18,D.5.18,11,E,45,25,1,"44","1",1
+61,D.5.2,D.5.2,11,A,45,20,1,"43","1",1
+62,D.5.3,D.5.3,11,A,45,20,1,"43","1",1
+63,D.5.4,D.5.4,11,A,45,20,1,"43","1",1
+64,D.5.5,D.5.5,11,A,45,20,1,"43","1",1
+65,D.5.6,D.5.6,11,A,45,20,1,"43","1",1
+66,D.5.7,D.5.7,11,B,45,20,1,"36","1",1
+67,D.5.8,D.5.8,11,A,30,20,1,"36","1",1
+68,D.5.9,D.5.9,11,A,45,20,1,"41","1",1
+69,WR. IV,WR. IV,11,B,10,0,1,"",,
+70,Biro Kemahasiswaan,Biro Kemahasiswaan,11,C,35,25,1,"0","1",1
+71,Biro Umum,Biro Umum,11,C,10,0,1,"0","1",1
+72,LPPM,LPPM,11,C,10,0,1,"0","1",1
+73,Biro SDM,Biro SDM,11,C,10,10,1,"0","1",1
+74,Biro Akademik,Biro Akademik,11,C,15,0,1,"0","1",1
+75,Ruang Rapat,Ruang Rapat,11,C,40,25,1,"0","1",1
+76,Career Center,Career Center,11,C,10,0,1,"0","1",1
+77,GD. E,GD. E,11,Z,400,400,1,,,
+78,Lab. Bahasa 1,Lab. Bahasa 1,11,C,40,35,1,"70","1",1
+79,Lab. Bahasa 2,Lab. Bahasa 2,11,C,40,35,1,"70","1",1
+80,Lab.ANALOG,Lab.ANALOG,11,E,12,12,2,"36","1",1
+81,Lab. KIMIA,Lab.KIMIA,27,D,40,20,1,,,
+82,Lab. SIMBI,Lab.SIMBI,11,E,15,15,1,"27",,
+83,LAB.AKT,LAB.AKT,11,B,35,20,1,"65","1",1
+84,LAB.D.2C,LAB.D.2C,11,Z,40,20,2,"92",,
+85,LAB.D.2D,LAB.D.2D,11,Z,40,20,2,"92",,
+86,LAB.D.2F,LAB.D.2F,11,Z,40,20,2,"21",,
+87,LAB.D.2G,LAB.D.2G,11,Z,40,20,2,"86",,
+88,LAB.D.2I,LAB.D.2I,11,Z,40,20,2,"71",,
+89,LAB.D.2J,LAB.D.2J,11,Z,40,20,2,"71",,
+90,LAB.D.2K,LAB.D.2K,11,Z,40,20,2,"71",,
+91,Lab.DIGITA,Lab.DIGITA,11,E,40,40,2,"27","1",1
+92,Lab.INSTRU,Lab.INSTRU,11,E,10,10,2,"37","1",1
+93,LAB.MNJ,LAB.MNJ,11,B,45,20,0,"56","1",1
+94,LAB.H/W,LAB.H/W,22,Z,40,20,1,"75",,
+95,DISK,DISK,11,D,21,0,1,,,
+96,STUDIO,STUDIO,25,A,42,20,1,"140.4","1",1
+97,D.3.8,D.3.8,11,A,45,25,0,"38","1",1
+98,D.3.9,D.3.9,11,A,46,20,2,"","1",1
+99,D.3.10,D.3.10,11,A,50,25,2,"0","1",1
+100,D.3.11,D.3.11,11,A,50,25,0,"84","1",1
+101,ORMAWA,ORMAWA,11,Z,45,25,1,"","1",1
+102,D.3.13,D.3.13,11,A,45,25,1,"","1",1
+103,D.3.14,D.3.14,11,P,0,0,1,"","1",1
+104,D.4.9,D.4.09,11,A,50,20,1,"42","1",1
+105,D.4.10,D.4.10,11,A,45,20,1,"42","1",1
+106,Lab.KESH,Lab.KESH,11,D,25,25,1,"38",,
+107,B.4.40,B.4.40,11,D,40,20,0,"",,
+108,D.4.8,D.4.08,11,A,30,30,1,"42","1",1
+109,B.4.1,B.4.1,11,E,45,25,2,"72","1",1
+110,D.4.7,D.4.07,11,A,40,20,1,"49","1",1
+111,LAB. SISPRO,LAB.SISPRO,,E,40,0,1,"281,9","1",1
+112,LAB. DISPRO,LAB. DISPRO,,E,40,0,0,"54","1",1
+113,LAB. APK,LAB. APK,,A,40,0,0,"0","",0
+114,C.4.5,C.4.05,11,D,50,30,1,"64","1",1
+115,D.3.GMB,D.3.GMB,,A,40,20,2,"84","1",1
+116,D.3.L,D.3.L,,A,40,20,1,"75","1",1
+117,D.3.Foto,D.3.Foto,25,A,40,40,2,"36","1",1
+118,D.3.AN,D.3.AN,23,A,40,40,1,"63","1",1
+119,ABCD,"ABCD
+",,B,52,25,2,,,
+120,AULAKU,"AULAKU
+",,A,400,200,2,,,
+121,C.2.1,C.2.1,,B,40,25,1,"96","1",1
+122,Lab. robotika,Lab. robotika,,E,40,0,0,"54","1",1
+127,Lab.D,Lab.D,,,,,1,,,
+123,G.2.3,G.2.3,,A,30,15,1,"31","1",1
+124,G.2.4,G.2.4,,P,30,15,1,"31","1",1
+125,Lab FT,Lab.FT,11,E,40,40,1,,,
+126,Lab. Dispr,Lab.Dispr,,,,,0,,,
+128,Lab.Di,Lab.Di,,,,,1,,,
+129,Lab.K,Lab.K,,,,,1,"70",,
+130,Lab FT 2,Lab.FT 2,,E,10,10,0,,,
+131,PMB,Ruang PMB,,Z,10,0,1,,,
+132,Sidang Fasilkom,Sidang Fasilkom,,A,120,0,1,"0",,
+133,Rapat Rektorat G.1,Rapat Rektorat G.1,,Z,39,30,1,"118.8","1",1
+134,Rapat BIma A.1,Rapat BIma A.1,,Z,20,20,1,"70",,
+135,RAPAT B.1,RAPAT B.1,,E,20,20,2,"35","1",1
+136,Masjid baitul Muttaqin,Masjid Lama,,Z,100,0,1,"0",,
+137,Masjid Baitul Ilmi,Masjid Baru,,Z,100,0,1,"0",,
+138,B.5.BR,B.5.BR,,A,40,20,1,"25.00","1",1
+139,RUANG PERTEMUAN/ AULA,RUANG PERTEMUAN/ AULA,,A,0,0,1,"180","1",1
+142,Sidang FIB,Sidang FIB,,C,30,0,1,"26.55","1",1
+143,LPM,LPM,,P,50,25,1,"72","1",1
+144,Sidang FT,Sidang FT,,E,0,0,1,"0",,
+145,Dekanat Fasilkom,Dekanat Fasilkom,,A,0,0,2,"39","1",1
+146,Lab TA IF 1,Lab.TA IF 1,,A,0,0,1,"0",,
+147,Lab TA IF 2,Lab.TA IF 2,,A,0,0,1,"0",,
+148,Lab TA RPLD 1,Lab.TA RPLD 1,,A,0,0,1,"0",,
+149,Lab TA RPLD 2,Lab.TA RPLD 2,,A,0,0,1,"0",,
+150,Rapat C.1,Rapat C.1,,B,40,0,0,"0",,
+153,C.1.7,-,,B,40,40,1,"10","1",1
+152,TOILET 2 FEB,TOILET 2 FEB,,B,40,40,1,"52","1",1
+154,C.1.8,-,,B,4,40,1,"4","1",1
+155,C.1.1,C.1.1,,B,40,40,1,"24","1",1
+156,C.1.3,C.1.3,,B,40,40,1,"44","1",1
+157,C.2.8,-,,B,40,40,1,"4","1",1
+158,C.1.11,-,,B,40,40,1,"4","1",1
+159,C.3.7,-,,B,40,40,1,"35","1",1
+160,C.2.6,-,,B,40,40,1,"4","1",1
+161,C.2.9,-,,B,40,40,1,"4","1",1
+162,C.3.9,-,,B,0,40,1,"4","1",1
+163,C.2.2,-,,B,40,40,1,"42","1",1
+164,C.2.3,C.2.3,,B,40,40,1,"42","1",1
+165,C.2.4,-,,B,40,40,1,"4","1",1
+166,C.1.5,-,,B,40,40,1,"7.5","1",1
+167,C.5.7,-,,B,0,0,1,"4","1",1
+168,Dosen Fkes,Dosen Fkes,,D,0,0,0,"104","1",1
+169,Sekretariat Fkes,-,,D,0,0,1,"0",,
+170,UPT POLIKLINIK,UPT POLIKLINIK,,D,0,0,2,"0","",0
+171,Tata Usaha Fkes,Tata Usaha Fkes,,D,0,0,0,"44","1",1
+172,Diskusi Fkes,-,,D,0,0,1,"0",,
+173,LAB. REKAM MEDIS PAPER / MANUAL,LAB. REKAM MEDIS PAPER / MANUAL,,D,10,0,1,"38","1",1
+174,C.5.8,-,,D,0,0,1,"4","1",0
+175,C.4.6,C.4.6,,B,0,0,1,"16","1",0
+176,Lobi Pasca,-,,P,0,0,1,"0",,
+177,Dapur Pasca,Dapur Pasca,,P,0,0,1,"7","",1
+178,Lab. Data Mining,Lab. Data Mining,,P,0,0,1,"31","1",1
+179,Ruang Dosen,Ruang Dosen,,P,0,0,1,"31","1",1
+180,Ruang WR 1,Ruang WR 1,,P,0,0,1,"23","1",1
+181,Lab Computer Vision,Lab Computer Vision,,P,0,0,1,"35","1",1
+182,Tata Usaha Pasca,Tata Usaha Pasca,,P,0,0,1,"21","1",1
+183,LPM,LPM,,P,30,15,1,"31","1",1
+184,G.2.1,G.2.1,,P,30,15,1,"31","1",1
+185,Kmrmandi 1 Pasca,-,,P,0,0,1,"0",,
+186,Kmrmandi 2 Pasca,-,,P,0,0,1,"0",,
+187,Tata Usaha FIB,Tata Usaha FIB,,C,7,0,1,"","1",1
+188,Dosen Jepang,Dosen Jepang,,C,10,0,1,"29,9","1",1
+189,Dosen Inggris,Dosen Inggris,,C,13,0,1,"69,01","1",1
+190,Dekanat FIB,Dekanat FIB,,C,2,0,1,"22,75","1",1
+191,SAC,-,,C,0,0,2,"48.75","1",1
+192,Dapur FIB,Dapur FIB,,C,2,0,1,"7,2","1",1
+193,HALL 1 Fib,-,,C,0,0,2,"0","",0
+194,HALL 2 Fib,-,,C,0,0,2,"0","",0
+195,Lembaga Kerjasama,-,,Z,0,0,1,"42",,
+196,Karir Center,-,,Z,0,0,1,"0",,
+197,Percetakan,-,,Z,0,0,1,"60",,
+198,SELASAR DALAM B1,SELASAR DALAM B1,,E,0,0,2,"87","1",1
+199,Perpustakaan A.2.2,-,,Z,0,0,1,"0",,
+200,Perpustakaan A.2.3,-,,Z,0,0,1,"0","",0
+201,Dosen Manajemen,Dosen Manajemen,,B,0,0,0,"28","1",1
+202,Dapur Feb,Dapur Feb,,B,0,0,0,"0","",0
+203,G.2.2,G.2.2,,P,30,15,1,"31","1",1
+204,Biro Admisi,-,,Z,0,0,1,"0",,
+205,B.2.4,B.2.4,,E,25,25,2,"12","1",1
+206,RADIO,RADIO,,E,0,0,2,"15","1",1
+207,HALL LAB FT,-,,E,0,0,1,"45",,
+208,LAB SIMULASI BISNIS FT,LAB SIMULASI BISNIS FT,,E,0,0,2,"27","1",1
+209,LAB ERGONOMI FT,LAB ERGONOMI FT,,E,0,0,0,"30","1",1
+210,TATA USAHA FT,TATA USAHA FT,,E,0,0,2,"30","1",1
+211,KEPALA LAB,KEPALA LAB,,E,0,0,2,"36","1",1
+212,DEKANAT FT,DEKANAT FT,,E,0,0,0,"18","1",1
+213,DOSEN INDUSTRI,DOSEN INDUSTRI,,E,0,0,2,"81","1",1
+214,GUDANG FKES,GUDANG FKES,,D,0,0,1,"27","",0
+215,DOSEN PROGDI D3 (D.1.6),DOSEN PROGDI D3 (D.1.6),,A,0,0,2,"0",,
+216,LPPM,LPPM,,D,0,0,1,"0",,
+217,DOSEN TI-S1 (D.1.8),DOSEN TI-S1 (D.1.8),,A,0,0,2,"0",,
+218,SEKRETARIAT FIK,SEKRETARIAT FIK,,A,0,0,0,"24","1",1
+219,DOSEN SI-S1 (D.1.7),DOSEN SI-S1 (D.1.7),,A,0,0,2,"0",,
+220,TU PELAYANAN FIK (D.1.2),TU PELAYANAN FIK (D.1.2),,A,0,0,2,"0",,
+221,DOSEN DKV (D.1.5),DOSEN DKV (D.1.5),,A,0,0,2,"0",,
+222,Halaman Parkir Gedung G,-,,Z,0,0,0,"0",,
+223,Biro Akademik,Biro Akademik,,A,40,20,1,"75","1",1
+224,DAPUR,DAPUR,,,0,0,1,"19","1",1
+225,TOILET,TOILET,,,0,0,1,"15","1",1
+226,Selasar A,Selasar A,,,0,0,1,"27","1",1
+227,BIRO KEMAHASISWAAN,BIRO KEMAHASISWAAN,,,0,0,1,"54","1",1
+228,A.1.3,A.1.3,,A,0,0,0,"15","1",1
+229,GUDANG ARSIP BIKU,GUDANG ARSIP BIKU,,,0,0,1,"12","1",1
+230,BIRO UMUM,BIRO UMUM,,,0,0,1,"50","1",1
+231,A.1.6,A.1.6,,,0,0,2,"12","1",1
+232,A.1.7,A.1.7,,,0,0,2,"10","1",1
+233,BIRO SDM,BIRO SDM,,A,0,0,1,"53","1",1
+234,KOPERASI KARYAWAN,KOPERASI KARYAWAN,,Z,0,0,1,"11","1",1
+235,PERPUSTAKAAN,PERPUSTAKAAN,,,0,0,1,"302","1",1
+236,A.2.2,A.2.2,,,0,0,1,"37","1",1
+237,RUANG TUNGGU DOSEN,RUANG TUNGGU DOSEN,,E,0,0,2,"15","1",1
+238,TOILET B1,TOILET B1,,E,0,0,2,"9","1",1
+239,SELASAR LUAR B1,SELASAR LUAR B1,,E,0,0,2,"42","1",1
+240,B.1.2,B.1.2,,A,0,0,0,"45","1",1
+241,PANTRI,PANTRI,,E,0,0,2,"8","1",1
+242,TUNGGU MAHASISWA,TUNGGU MAHASISWA,,E,0,0,2,"15","1",1
+243,B.1.9,B.1.9,,A,0,0,0,"3","1",1
+244,B.2.6,B.2.6,,A,0,0,0,"7","1",1
+245,TOILET B2,TOILET B2,,A,0,0,2,"8","1",1
+246,SELASAR B2,SELASAR B2,,A,0,0,2,"80","1",1
+247,SELASAR DALAM B3,SELASAR DALAM B3,,A,0,0,2,"27","1",1
+248,SELASAR LUAR B3,SELASAR LUAR B3,,A,0,0,2,"47","1",1
+249,Administrasi Lab,Administrasi Lab,,A,0,0,2,"18","1",1
+250,TOILET B3,TOILET B3,,A,0,0,2,"8","1",1
+251,TOILET B4,TOILET B4,,E,0,0,2,"8","1",1
+252,SELASAR B4,SELASAR B4,,A,0,0,2,"76","1",1
+253,B.5.3,B.5.3,,,0,0,2,"23","1",1
+254,B.5.5,-,,,0,,1,"8.4","1",1
+255,B.5.6,-,,,0,,1,"73.08","1",1
+256,C.1.10,-,,,0,,1,"12","1",1
+257,C.1.2,C.1.2,,,0,,1,"12","1",1
+258,C.1.4,-,,,0,,1,"18","1",1
+259,C.1.6,C.1.6,,B,0,0,1,"22","1",1
+260,C.2.7,-,,,0,,1,"12","1",1
+261,C.3.6,-,,,0,,1,"42","1",1
+262,C.3.8,-,,,0,,1,"4","1",1
+263,C.4.7,-,,,0,,1,"8.00","1",1
+264,C.4.8A,C.4.8A,,A,0,0,1,"4.00","1",2
+265,C.4.9,-,,,0,,1,"66.00","1",1
+266,C.5.10,C.5.10,,B,0,0,1,"60.00","1",1
+267,C.5.2,-,,B,40,25,1,"36","1",1
+268,C.5.4,C.5.4,,B,40,0,1,"48","1",1
+269,C.5.9,-,,,0,,1,"8.00","1",1
+270,D.1.10,D.1.10,,A,0,0,0,"0","1",1
+271,D.1.11,D.1.11,,A,0,0,0,"0","1",1
+272,D.1.13,D.1.13,,A,0,0,0,"0","1",1
+273,D.1.14,D.1.14,,A,0,0,0,"0","1",1
+274,D.1.15,D.1.15,,D,0,0,2,"0","1",1
+275,D.1.16,D.1.16,,A,0,0,0,"0","1",1
+276,D.1.17,D.1.17,,A,0,0,0,"0","1",1
+277,D.1.18,D.1.18,,A,0,0,0,"0","1",1
+278,D.1.19,D.1.19,,A,0,0,0,"0","1",1
+279,D.1.20,D.1.20,,A,0,0,0,"0","1",1
+280,D.1.21,D.1.21,,A,0,0,0,"0","1",1
+281,D.1.22,D.1.22,,A,0,0,0,"0","1",1
+282,D.1.23,D.1.23,,A,0,0,0,"0","1",1
+283,D.1.24,D.1.24,,A,0,0,0,"0","1",1
+284,D.1.25,D.1.25,,A,0,0,0,"0","1",1
+285,D.1.26,D.1.26,,A,0,0,0,"0","1",1
+286,D.1.3,D.1.3,,A,0,0,0,"24","1",1
+287,D.1.5,D.1.5,,A,0,0,0,"0","1",1
+288,D.2.1,D.2.1,,,0,0,1,"51","1",1
+289,D.2.2,D.2.2,,,0,0,1,"24.00","1",1
+290,D.2.3,-,,,0,,1,"16.00","1",1
+291,D.2.4,D.2.4,,,0,0,1,"0","1",1
+292,LAB. MULTIMEDIA,LAB. MULTIMEDIA,,A,0,0,1,"66","1",1
+293,D.3.16,D.3.16,,,0,0,0,"0","0",0
+294,D.3.17,D.3.17,,A,0,0,1,"32.00","1",1
+295,D.3.18,D.3.18,,,0,0,2,"12.00","1",1
+296,D.4.17,D.4.17,,,0,0,2,"18.00","1",1
+297,D.4.18,D.4.18,,,0,0,2,"9.00","1",1
+298,D.4.19,D.4.19,,,0,0,2,"32.00","1",1
+299,D.4.20,D.4.20,,,0,0,1,"12","1",1
+300,D.4.21,D.4.21,,,0,0,2,"7","1",1
+301,D.4.22,D.4.22,,,0,0,1,"356","1",1
+302,D.5.19,D.5.19,,,0,0,1,"12","1",1
+303,D.5.20,-,,,0,,1,"32.00","1",1
+304,D.5.21,D.5.21,,,0,0,1,"12","1",1
+305,D.5.22,D.5.22,,,0,0,1,"356","1",1
+306,Rektor,Rektor,,,0,0,1,"63","1",1
+307,Ruang Panel,Ruang Panel,,,0,0,1,"7","1",1
+308,Ruang Data,Ruang Data,,,0,0,1,"0","1",1
+309,Gudang G 1,Gudang G 1,,,0,0,1,"9","1",1
+310,Toilet,Toilet,,,0,0,1,"35","1",1
+311,Kantin,Kantin,,,0,0,1,"36","1",1
+312,Selasar,Selasar,,,0,0,1,"79","1",1
+313,Sekretariat Rektorat,Sekretariat Rektorat,,,0,0,1,"104","1",1
+314,WR. III,WR. III,,,0,0,1,"24","1",1
+315,WR. II,WR. II,,,0,0,1,"26","1",1
+316,Prof. Dwiarso,Prof. Dwiarso,,,0,0,1,"28","1",1
+317,BIKU,BIKU,,,0,0,1,"51","1",1
+318,Bank Jateng,Bank Jateng,,,0,0,1,"79","1",1
+319,DAPUR,DAPUR,,,0,0,1,"7","1",1
+320,G.2.13,G.2.13,,,0,0,1,"7","1",1
+321,G.2.14,G.2.14,,,0,0,1,"8","1",1
+322,G.2.15,G.2.15,,,0,0,1,"46","1",1
+323,G.2.16,G.2.16,,,0,0,1,"79","1",1
+324,G.3.11,-,,,0,,2,"26.55","1",1
+325,Panel G3,Panel G3,,,0,0,1,"7,2","1",1
+326,Gudang G3,Gudang G3,,,0,0,1,"10,78","1",1
+327,Toilet G3,Toilet G3,,,0,0,1,"46,02","1",1
+328,Selasar G3,Selasar G3,,,0,0,1,"270","1",1
+329,C.1.12,-,,,0,,1,"4","1",1
+330,C.5.6,-,,,0,,1,"27","1",1
+331,F.1.1,-,,,0,,1,"10.8","1",1
+332,F.1.2,-,,,0,,1,"10.8","1",1
+333,F.1.3,-,,,0,,1,"10.8","1",1
+334,F.1.4,-,,,0,,1,"10.8","1",1
+335,F.1.5,-,,,0,,1,"10.8","1",1
+336,F.1.6,-,,,0,,1,"10.8","1",1
+337,F.1.7,-,,,0,,1,"10.8","1",1
+338,F.1.8,-,,,0,,1,"10.8","1",1
+339,F.1.9,-,,,0,,1,"10.8","1",1
+340,F.1.10,-,,,0,,1,"10.8","1",1
+341,F.1.11,-,,,0,,1,"10.8","1",1
+342,F.1.12,-,,,0,,1,"5.04","1",1
+343,F.1.13,-,,,0,,1,"82.53","1",1
+344,F.2.1,-,,,0,,1,"10.8","1",1
+345,F.2.2,-,,,0,,1,"10.8","1",1
+346,F.2.3,-,,,0,,1,"10.8","1",1
+347,F.2.4,-,,,0,,1,"10.8","1",1
+348,F.2.5,-,,,0,,1,"10.8","1",1
+349,F.2.6,-,,,0,,1,"10.8","1",1
+350,F.2.7,-,,,0,,1,"10.8","1",1
+351,F.2.8,-,,,0,,1,"10.8","1",1
+352,F.2.9,-,,,0,,1,"10.8","1",1
+353,F.2.10,-,,,0,,1,"10.8","1",1
+354,F.2.11,-,,,0,,1,"10.8","1",1
+355,F.2.12,-,,,0,,1,"5.04","1",1
+356,F.2.13,-,,,0,,1,"82.53","1",1
+357,E.1.1,E.1.1,,Z,0,0,1,"20","1",1
+358,E.1.2,E.1.2,,A,0,0,1,"30","1",1
+359,E.1.3,-,,,0,,1,"18.00","1",1
+360,E.1.4,-,,,0,,1,"24.00","1",1
+361,E.1.5,E.1.5,,A,0,0,1,"116","1",1
+362,E.1.6,E.1.6,,,0,0,2,"38","1",1
+363,E.1.7,-,,,0,,1,"12.96","1",1
+364,E.1.8,-,,,0,,1,"17.28","1",1
+365,E.1.9,-,,,0,,1,"16.00","1",1
+366,E.1.10,-,,,0,,1,"25.20","1",1
+367,TVKU,TVKU,,A,0,0,1,"42","1",1
+368,E.2.2,E.2.2,,,0,0,1,"42","1",1
+369,E.2.3,E.2.3,,,0,0,1,"2","1",1
+370,E.2.4,E.2.4,,,0,0,1,"46","1",1
+371,E.2.5,E.2.5,,,0,0,1,"46","1",1
+372,E.2.6,E.2.6,,,0,0,1,"12","1",1
+373,E.2.7,E.2.7,,,0,0,1,"2","1",1
+374,E.2.8 ,E.2.8 ,,,0,0,1,"10","1",1
+375,E.2.9,E.2.9,,,0,0,1,"138","1",1
+376,E.2.10,E.2.10,,,0,0,1,"30","1",1
+377,E.2.11,E.2.11,,,0,0,1,"4","1",1
+378,E.2.12,E.2.12,,,0,0,1,"67","1",1
+379,AULA E.3.1,AULA E.3.1,,A,400,0,1,"360","1",1
+380,E.3.2,-,,,0,,1,"8.64","1",1
+381,E.3.3,-,,,0,,1,"12.6","1",1
+382,E.3.4,-,,,0,,1,"46.08","1",1
+383,E.3.5,-,,,0,,1,"63.6","1",1
+384,Poliklinik,Poliklinik,,Z,0,0,1,"69","1",0
+385,U.1.2,-,,,0,,1,"306.2","1",0
+386,U.1.3,-,,,0,,1,"144.0","",0
+387,U.1.4,-,,,0,,1,"286.0","1",1
+388,U.1.5,-,,,0,,1,"0","",0
+389,U.1.6,U.1.6,,,0,0,2,"14","",0
+390,U.1.7,-,,,0,,1,"7.2","1",1
+391,U.1.8,-,,,0,,1,"45.00","1",1
+392,U.1.9,-,,,0,,0,"0","0",0
+551,C.1.13,C.1.13,,B,0,0,1,"52","1",0
+393,U.1.10,-,,,0,,1,"28.00","",0
+394,U.1.11,-,,,0,,1,"35.10","",1
+406,B.1.3,-,,E,0,0,0,"0","",0
+395,D.1.6,D.1.6,,A,0,0,0,"0","1",1
+396,D.1.7,D.1.7,,A,0,0,0,"0","1",1
+397,D.1.8,D.1.8,,A,0,0,0,"0","1",1
+398,D.1.9,D.1.9,,A,0,0,0,"0","1",1
+399,D.4.16,D.4.16,,E,40,0,2,"45","1",1
+400,D.3.19,-,,A,0,0,1,"30.78","1",1
+401,D.1.4,D.1.4,,A,0,0,0,"108","1",1
+402,D.1.12,D.1.12,,A,0,0,0,"0","1",1
+403,G.1.16,G.1.16,,P,0,0,2,"40","1",1
+404,RUANG PROGRAMER ,RUANG PROGRAMER ,,Z,0,0,2,"0","1",1
+405,RUANG SERVER,RUANG SERVER,,Z,0,0,2,"0","1",1
+407,DAKANAT FT,DAKANAT FT,,E,0,0,2,"20","1",1
+408,DOSEN BIOMEDIS,DOSEN BIOMEDIS,,E,0,0,2,"26","1",1
+409,SEKRETARIAT,SEKRETARIAT,,E,0,0,2,"14","1",1
+410,DOSEN TI S1,DOSEN TI S1,,A,65,0,1,"50.00","1",1
+411,Kaprodi TI S1,Kaprodi TI S1,,A,65,0,1,"50.00","1",1
+412,Dosen TI S1,Dosen TI S1,,A,65,0,1,"50.00","1",1
+413,Dosen TI S1,Dosen TI S1,,A,65,0,1,"50.00","1",1
+414,Dosen TI S1,Dosen TI S1,,A,65,0,1,"50.00","1",1
+415,Dosen TI S1,Dosen TI S1,,A,45,0,1,"56","1",1
+416,Lab UMKM,Lab UMKM,,A,45,0,1,"75.00","1",1
+417,Lab Research,Lab Research,,A,45,0,1,"75.00","1",1
+418,DOSEN SI,DOSEN SI,,A,45,0,1,"50.00","1",1
+419,DOSEN SI,DOSEN SI,,A,45,0,1,"50.00","1",1
+420,Dosen SI,Dosen SI,,A,45,0,1,"50.00","1",1
+421,DOSEN PJJ,DOSEN PJJ,,A,65,0,1,"75.00","1",1
+422,KUI ,KUI ,,A,45,0,1,"50.00","1",1
+1014,Ruang Genset K,Ruang Genset K,,,0,0,1,"",,
+424,H.3.1,H.3.1,,A,65,0,1,"50.00","1",1
+425,H.3.2,H.3.2,,C,65,0,1,"50.00","1",1
+426,Ruang Dosen Ilmu Komunikasi,Ruang Dosen Ilmu Komunikasi,,A,65,0,1,"50.00","1",1
+427,Ruang Dosen Ilmu komunikasi,Ruang Dosen Ilmu komunikasi,,A,65,0,1,"50.00","1",1
+428,Dosen Animasi,Dosen Animasi,,A,45,0,1,"56","1",1
+429,H.3.Foto,H.3.Foto,,A,45,0,1,"37","1",1
+430,Lab Coe,Lab Coe,,A,45,0,1,"37","1",1
+431,H.3.8,H.3.8,,A,45,0,1,"37","1",1
+432,H.3.9,H.3.9,,A,45,0,1,"37","1",1
+433,H.3.10,H.3.10,,A,45,0,1,"37","1",1
+434,H.3.11,H.3.11,,A,45,0,1,"37","1",1
+435,Dosen FTV,Dosen FTV,,A,45,0,1,"37","1",1
+436,Lab FTV,Lab FTV,,A,45,0,1,"37","1",1
+437,D.3.RM,-,,D,50,20,1,"",,
+438,TATA USAHA FIK,TATA USAHA FIK,,A,0,0,1,"75","1",1
+439,Ka Tu,Ka Tu,,A,0,0,1,"25","1",1
+440,Gudang H1,Gudang H1,,A,0,0,1,"12","1",1
+441,Ruang rapat H1 (ekstensi),Ruang rapat H1 (ekstensi),,A,0,0,1,"62","1",1
+442,Rapat (H1,Rapat (H1,,A,0,0,1,"125","1",1
+443,Sekretariat FIK,Sekretariat FIK,,A,0,0,1,"25","1",1
+444,Dekan FIK,Dekan FIK,,A,0,0,1,"50","1",1
+445,Rindang Konsta,Rindang Konsta,,A,0,0,1,"50","1",1
+446,WR 4,WR 4,,A,0,0,1,"","1",1
+447,Dosen DKV,Dosen DKV,,A,0,0,1,"75","1",1
+448,Ka Prodi DKV,Ka Prodi DKV,,A,0,0,1,"25","1",1
+449,Dosen DKV,Dosen DKV,,A,0,0,1,"50","1",1
+450,Galery,Galery,,A,0,0,1,"100","1",1
+451,Dapur ,Dapur ,,A,0,0,1,"17","1",1
+452,Toilet,Toilet,,A,0,0,1,"18","1",1
+453,Washitsu,-,,C,20,20,2,"31","",0
+454,TU PASCA F.KES,TU PASCA F.KES,,A,30,20,1,"48","1",0
+455,Studio TVKU,-,,Z,40,20,1,"6",,
+456,Ruang Dosen FIK,-,,A,0,0,1,"",,
+457,WR I,-,,Z,0,0,1,"",,
+458,WR II,-,,Z,0,0,1,"",,
+459,WR III,-,,Z,0,0,1,"",,
+460,WR IV,-,,Z,0,0,1,"",,
+462,Ruang Rapat TVKU,-,,Z,0,0,1,"",,
+463,Lab Ilkom (H.4.14),Lab Ilkom (H.4.14),,A,65,30,1,"50","1",1
+464,H.4.2,H.4.2,,A,65,30,1,"50","1",1
+465,H.4.4,H.4.4,,A,40,30,1,"50","1",1
+466,H.4.5,H.4.5,,A,40,30,1,"50","1",1
+467,H.4.7,H.4.7,,A,40,25,1,"","1",1
+468,H.4.8,H.4.8,,A,45,25,1,"37","1",1
+469,H.4.9,H.4.9,,A,40,25,1,"37","1",1
+470,H.4.10,H.4.10,,A,40,25,1,"37","1",1
+471,H.4.11,H.4.11,,A,40,25,1,"37","1",1
+472,H.5.1,H.5.1,,A,40,25,1,"33","1",1
+473,H.5.2,H.5.2,,A,65,30,1,"33","1",1
+474,H.5.4,H.5.4,,A,40,30,1,"33","1",1
+475,H.5.5,H.5.5,,A,40,30,1,"33","",1
+476,H.5.7,H.5.7,,A,40,30,1,"33",,
+477,H.5.8,H.5.8,,A,40,25,1,"33","1",1
+478,H.5.9,H.5.9,,A,40,25,1,"35","1",1
+479,H.5.10,H.5.10,,A,40,25,1,"35","1",0
+480,H.5.12,H.5.12,,A,40,25,1,"35","1",1
+481,H.5.13,H.5.13,,A,40,25,1,"35","1",0
+482,H.5.14,H.5.14,,A,40,25,1,"35","1",1
+483,H.4.12,H.4.12,,A,40,25,1,"37","1",1
+484,Lab animasi 2,Lab animasi 2,,A,40,25,1,"37","1",1
+485,Lab animasi 1,Lab animasi 1,,A,40,25,1,"32","1",1
+486,Lab Animasi 1,Lab Animasi 1,,A,40,25,1,"32","",1
+487,H.4.14,H.4.14,,A,40,25,2,"","1",1
+488,H.5.12,H.5.12,,A,40,0,1,"35","1",1
+490,D.3.M,D.3.M,,Z,40,30,1,"",,
+491,Ruang Rapat C.5.2,-,,D,15,0,0,"",,
+492,AHLA,AHLA,,D,20,20,1,"","",0
+493,Laboratorium Kesehatan Ke,Laboratorium Kesehatan Ke,,D,20,0,1,"",,
+494,LAB. PROMOSI KESEHATAN DAN AUDIO VISUAL,LAB. PROMOSI KESEHATAN DAN AUDIO VISUAL,,D,20,0,1,"",,
+495,LAB RISET KESEHATAN,LAB RISET KESEHATAN,,D,10,5,1,"29",,
+496,Laboratorium Kesehatan Li,Laboratorium Kesehatan Li,,D,20,0,1,"",,
+497,laboratorium epidemiologi,laboratorium epidemiologi,,D,20,0,1,"",,
+499,H,-,,A,0,0,1,"",,
+500,C.5.3,C.5.3,,B,40,25,1,"48","",0
+501,H.6.3,H.6.3,,A,30,20,1,"",,
+502,H.6.4,H.6.4,,A,30,15,1,"30",,
+503,H.6.1,H.6.1,,A,40,25,1,"",,
+504,H.6.2,H.6.2,,A,30,20,1,"",,
+505,D.3.LAB,D.3.LAB,,A,40,40,2,"",,
+506,LAB H.6.5,LAB H.6.5,,A,13,9,1,"30",,
+507,LAB CMCI,LAB CMCI,,A,10,10,1,"30",,
+508,LAB CSAC  (H.6.7),LAB CSAC  (H.6.7),,A,10,10,1,"30",,
+509,H.4.1,H.4.1,,A,40,25,1,"",,
+510,LAB INKUBATOR,-,,A,50,30,1,"",,
+511,LAB IDSS (H.6.8),LAB IDSS (H.6.8),,A,13,13,1,"30",,
+512,LOBBY.H.6,LOBBY.H.6,,A,40,25,1,"",,
+513,H.6.10,-,,A,40,25,1,"",,
+514,H.6.11,-,,A,40,25,1,"",,
+515,H.6.12,-,,A,40,25,1,"",,
+516,foto,-,,A,0,0,1,"",,
+517,D.3.GBR 2,D.3.GBR 2,,A,40,0,2,"",,
+518,C.5.5,C.5.5,,B,40,30,1,"42","1",0
+519,H.7.1,H.7.1,,A,40,20,1,"30",,
+520,H.7.2,H.7.2,,A,40,20,1,"30",,
+521,H.7.3,H.7.3,,A,40,20,1,"30",,
+522,H.7.4,H.7.4,,A,40,0,1,"30",,
+523,D.3.M,D.3.M,,A,0,0,2,"0",,
+524,Lab. Fisik,Lab. Fisik,,E,40,0,1,"",,
+525,Lab. Teknik,-,,E,0,0,1,"",,
+526,Lab. Instrumentasi dan Ke,-,,E,25,0,1,"",,
+527,R.STORAGE,R.STORAGE,,E,0,0,1,"20",,
+528,Lab. Simulasi,-,,E,30,0,1,"75.48","1",1
+529,LAB KKPMT,LAB KKPMT,,D,40,25,2,"55",,
+530,H.3.Foto,H.3.Foto,,A,0,0,2,"",,
+531,D.3.Gambar,D.3.Gambar,,A,0,0,2,"",,
+532,D.5.Gambar,D.5.Gambar,,A,0,0,2,"",,
+533,H.5.11,H.5.11,,A,40,25,1,"20",,
+534,AULA H7,AULA H7,,Z,202,0,1,"0",,
+535,Studio Animasi ,-,,A,25,0,1,"",,
+536,Ruang LP2K,-,,,,,1,"0",,
+537,D.5.GMB,D.5.GMB,,A,0,0,2,"",,
+538,D.5.GMB 2,D.5.GMB 2,,A,0,0,2,"",,
+539,H.4.Studio Animasi ,H.4.Studio Animasi ,,A,0,0,2,"",,
+540,D.3.N,D.3.N,,A,40,40,1,"",,
+541,D.2.M,D.2.M,21,A,40,40,2,"",,
+542,D.2.N,D.2.N,21,A,40,40,2,"",,
+543,Lab. Hotel,-,,C,20,0,1,"","1",1
+544,Diskusi Kecil Fkes,-,,D,10,5,1,"",,
+554,Ruang UPT Data dan Inform,Ruang UPT Data dan Inform,,Z,0,0,1,"50",,
+547,B.4.3,B.4.3,,E,50,25,2,"80",,
+548,B.4.2,B.4.2,,E,50,25,2,"75",,
+549,B.4.4,B.4.4,,E,50,50,2,"75",,
+550,Lab. Rehabilitasi,Lab. Rehabilitasi,,E,,,1,"0",,
+565,"","",,Z,0,0,1,"","",0
+556,R. DEKAN,R. DEKAN,,D,0,0,1,"","1",0
+557,R. DOSEN S1 KESLING,R. DOSEN S1 KESLING,,D,6,0,1,"43","",0
+558,dosen S1 kesmas,dosen S1 kesmas,,D,0,0,1,"",,
+559,R. DOSEN D3 RMIK - 1,R. DOSEN D3 RMIK - 1,,D,13,0,1,"73","",0
+560,serbaguna ,serbaguna ,,D,0,0,2,"",,
+561,rapat kecil,rapat kecil,,D,0,0,2,"","",0
+562,TELECONFERENCE,TELECONFERENCE,,D,20,0,1,"41","",0
+564,B.1.99,B.1.99,,A,0,0,2,"",,
+566,TATA USAHA FAK.KESEHATAN,TATA USAHA FAK.KESEHATAN,,D,9,0,1,"51","",0
+567,LAB. KESEHATAN - GIZI,LAB. KESEHATAN - GIZI,,D,3,3,1,"15","",0
+569,A.1.98,-,,"",0,1,0,--Pil,,
+571,C.1.14,C.1.14,,B,4,1,1,"48","1",0
+572,RUANG DEKAN FAK. KESEHATA,-,,"",0,1,0,"3",,
+573,DEKANAT FAKULTAS KESEHATA,-,,"",0,1,0,"3",,
+574,DOSEN KESEHATAN LINGKUNGA,-,,"",0,1,0,"4",,
+575,D.2.L,-,,"",42,1,0,"1",,
+577,D.2.Server,D.2.Server,,A,0,0,2,"",,
+578,RUANG DEKANAT F.KES,RUANG DEKANAT F.KES,,D,2,0,1,"32","",0
+579,A.1.99,A.1.99,,A,0,0,0,"",,
+580,R. GUDANG,R. GUDANG,,D,0,0,1,"","",0
+581,BEM FIK,BEM FIK,,A,0,0,1,"",,
+582,RUANG SERBAGUNA,RUANG SERBAGUNA,,D,56,0,1,"86","",0
+583,TOILET D.1,TOILET D.1,,D,0,0,1,"",,
+584,TOILET    D.1,TOILET    D.1,,D,0,0,1,"",,
+585,DPM FIK,DPM FIK,,A,0,0,1,"",,
+586,HM SI,HM SI,,A,0,0,1,"",,
+587,R. DOSEN S1 KESMAS,R. DOSEN S1 KESMAS,,D,24,0,1,"125",,
+588,C.2.5,C.2.5,,B,0,0,1,"4","1",0
+589,C.2.10,C.2.10,,B,0,0,1,"6","1",0
+590,C.2.11,C.2.11,,B,0,0,1,"42","1",0
+591,C.3.10,C.3.10,,B,0,0,1,"6","1",0
+592,C.3.11,C.3.11,,B,0,0,1,"45","",0
+593,LAB K-3,LAB K-3,,D,15,6,1,"29",,
+594,C.6.1,C.6.1,,B,0,0,1,"6","1",0
+595,C.6.2,C.6.2,,B,0,0,1,"4","1",0
+596,C.4.8B,C.4.8B,,B,0,0,1,"4","1",0
+597,B.2.8,B.2.8,,E,50,25,2,"",,
+599,Kulino,-,,A,50,50,1,"",,
+600,Gedung B Lantai 2 Ruangan 4,Gedung B Lantai 2 Ruangan 4,,E,25,25,2,"",,
+601,R. TATA USAHA,R. TATA USAHA,,E,5,0,1,"36",,
+602,R. Dekan,R. Dekan,,E,2,0,1,"39",,
+603,R. DOSEN TEKNIK INDUSTRI,R. DOSEN TEKNIK INDUSTRI,,E,12,0,1,"127",,
+604,R. DOSEN BIOMEDIS,R. DOSEN BIOMEDIS,,E,7,0,1,"38",,
+605,R. RAPAT,R. RAPAT,,E,35,0,1,"55",,
+606,R.SIDANG,R.SIDANG,,E,10,0,1,"36",,
+607,I.2.1,I.2.1,,E,50,30,1,"54",,
+608,I.2.2,I.2.2,,E,50,30,1,"54","1",1
+609,I.2.3,I.2.3,,E,36,30,1,"54","1",1
+610,RUANG DOSEN ,RUANG DOSEN ,,E,4,0,1,"40","1",1
+611,RUANG DOSEN ELEKTRO,RUANG DOSEN ELEKTRO,,E,8,0,1,"55",,
+612,R. LAB.  ROBOTIKA,R. LAB.  ROBOTIKA,,E,15,0,1,"39","",0
+613,R. LAB. FISIKA,R. LAB. FISIKA,,E,15,0,1,"40","",0
+614,I.3.1,I.3.1,,E,50,30,1,"54",,
+615,I.3.2,I.3.2,,E,50,30,1,"54",,
+616,I.3.3,I.3.3,,E,48,30,1,"54",,
+617,R. STAFF LABORANT,R. STAFF LABORANT,,E,5,0,1,"39","",0
+618,R. LAB REHABILITASI MEDIS,R. LAB REHABILITASI MEDIS,,E,9,0,1,"29","1",0
+619,R. LAB DASAR,R. LAB DASAR,,E,20,0,1,"54","1",1
+620,R. LAB. INSTRUMENT MEDIS,R. LAB. INSTRUMENT MEDIS,,E,9,0,1,"39","",0
+621,Ruang Lab. Instrumen,Ruang Lab. Instrumen,,E,12,0,1,"24","",0
+622,I.4.1,I.4.1,,E,40,20,1,"54",,
+623,LAB. BENGKEL ROBOT,LAB. BENGKEL ROBOT,,E,15,0,1,"108","",0
+624,RUANG ORMAWA,RUANG ORMAWA,,E,10,0,1,"39","",0
+625,RUANG RADIO,RUANG RADIO,,E,0,0,1,"9","",0
+626,GOR USSC,GOR USSC,,F,0,0,1,"",,
+627,Parkir Gedung E,Parkir Gedung E,,F,0,0,1,"",,
+628,Parkir Gedung D,Parkir Gedung D,,F,0,0,1,"",,
+629,Parkir Gedung U,Parkir Gedung U,,F,0,0,1,"",,
+630,Parkir Gedung J,Parkir Gedung J,,F,0,0,1,"",,
+631,Parkir Gedung H,Parkir Gedung H,,F,0,0,1,"",,
+632,LAB. KODING DAN REIMBURSEMENT,LAB. KODING DAN REIMBURSEMENT,,A,40,25,1,"","",0
+633,LAB. REKAM MEDIS - MANUAL (PAPER BASED),LAB. REKAM MEDIS - MANUAL (PAPER BASED),,D,40,25,1,"","",0
+634,LAB. STATISTIK,LAB. STATISTIK,,D,40,25,1,"44",,
+635,LAB. ANATOMI DAN FISIOLOGI,LAB. ANATOMI DAN FISIOLOGI,,D,20,20,1,"",,
+636,Laboratorium Rekam Medis Elektronik (D3.3),-,,D,40,25,1,"",,
+637,Laboratorium Audit Dokumen Klinis ,Laboratorium Audit Dokumen Klinis ,,D,40,25,2,"",,
+638,HM DKV,HM DKV,,A,0,0,1,"",,
+639,HM TI,HM TI,,A,0,0,1,"",,
+640,HM DOSCOM,HM DOSCOM,,A,0,0,1,"",,
+641,GENSET GEDUNG G,GENSET GEDUNG G,,,0,0,1,"",,
+642,GENSET GEDUNG E,GENSET GEDUNG E,,,0,0,1,"",,
+643,GENSET GEDUNG I,GENSET GEDUNG I,,,0,0,1,"",,
+644,d,-,,,0,0,1,"",,
+645,ESCALATOR NAIK LANTAI 1,ESCALATOR NAIK LANTAI 1,,,0,0,1,"",,
+646,ESCALATOR TURUN LANTAI 1,ESCALATOR TURUN LANTAI 1,,,0,0,1,"",,
+647,Rapat G3,-,,,20,0,1,"26.55","1",0
+1000,PJJ Lombok,PJJ Lombok,,,10,0,1,"",,
+649,ESCALATOR NAIK LANTAI 2,ESCALATOR NAIK LANTAI 2,,,0,0,1,"",,
+650,ESCALATOR TURUN LANTAI 2,ESCALATOR TURUN LANTAI 2,,,0,0,1,"",,
+651,ESCALATOR NAIK LANTAI 3,ESCALATOR NAIK LANTAI 3,,,0,0,1,"",,
+652,ESCALATOR TURUN LANTAI 3,ESCALATOR TURUN LANTAI 3,,,0,0,1,"",,
+653,ESCALATOR NAIK LANTAI 4,ESCALATOR NAIK LANTAI 4,,,0,0,1,"",,
+654,ESCALATOR TURUN LANTAI 4,ESCALATOR TURUN LANTAI 4,,,0,0,1,"",,
+655,ESCALATOR NAIK LANTAI 5,ESCALATOR NAIK LANTAI 5,,,0,0,1,"",,
+656,ESCALATOR TURUN LANTAI 5,ESCALATOR TURUN LANTAI 5,,,0,0,1,"",,
+657,ESCALATOR NAIK LANTAI 6,ESCALATOR NAIK LANTAI 6,,,0,0,1,"",,
+658,ESCALATOR TURUN LANTAI 6,ESCALATOR TURUN LANTAI 6,,,0,0,1,"",,
+659,R. DAPUR,R. DAPUR,,,0,0,1,"8","",0
+660,R. SEKRETARIAT,R. SEKRETARIAT,,,2,0,1,"9",,
+661,R. TAMU,R. TAMU,,,4,0,1,"18","",0
+662,R. TOILET,R. TOILET,,,0,0,1,"6","",0
+663,HUMAS,HUMAS,,,10,0,1,"","1",1
+664,R. GUDANG LANTAI 2,R. GUDANG LANTAI 2,,,0,0,1,"10",,
+750,A2.1.KDR,A2.1.KDR,,,40,0,1,"0","0",0
+665,R. TOILET,R. TOILET,,,0,0,1,"5","",0
+666,R. TOILET,R. TOILET,,,0,0,1,"5","",0
+667,SELASAR I.2,SELASAR I.2,,,0,0,1,"77",,
+668,D.4.11,D.4.11,,,50,25,1,"49",,
+669,D.4.12,D.4.12,,,58,25,1,"65",,
+670,D.4.13,D.4.13,,,50,25,1,"49",,
+671,D.5.14,D.5.14,,,50,25,1,"53","1",1
+672,D.5.15,D.5.15,,,50,25,1,"53","1",1
+673,D.5.16,D.5.16,,,50,25,1,"50",,
+674,D.5.17,D.5.17,,,60,25,1,"53","1",1
+675,Toilet Pria,Toilet Pria,,,0,0,1,"17",,
+676,Toilet wanita,Toilet wanita,,,0,0,1,"18",,
+677,Panel,Panel,,,0,0,1,"4",,
+678,Toilet Pria,Toilet Pria,,,0,0,1,"17",,
+679,Toilet wanita,Toilet wanita,,,0,0,1,"18",,
+680,Panel,Panel,,,0,0,1,"",,
+681,Panel,Panel,,,0,0,1,"4",,
+682,Toilet Pria,Toilet Pria,,,0,0,1,"17",,
+683,Toilet Wanita,Toilet Wanita,,,0,0,1,"18",,
+684,Panel,Panel,,,0,0,1,"4",,
+685,Toilet Pria,Toilet Pria,,,0,0,1,"17",,
+686,Toilet wanita,Toilet wanita,,,0,0,1,"18",,
+687,Panel,Panel,,,0,0,1,"4",,
+688,Toilet Pria,Toilet Pria,,,0,0,1,"17",,
+689,Toilet wanita,Toilet wanita,,,0,0,1,"18",,
+690,Panel,Panel,,,0,0,1,"4",,
+691,Panel,Panel,,,0,0,2,"",,
+692,GUDANG LANTAI 3,GUDANG LANTAI 3,,,0,0,1,"4",,
+693,R. TOILET,R. TOILET,,,0,0,1,"5",,
+694,R. TOILET,R. TOILET,,,0,0,1,"5",,
+695,SELASAR I.3,SELASAR I.3,,,0,0,1,"153",,
+696,LIFT GEDUNG C,LIFT GEDUNG C,,,0,0,1,"",,
+697,LIFT GEDUNG D,LIFT GEDUNG D,,,0,0,1,"",,
+698,LIFT GEDUNG B,LIFT GEDUNG B,,,0,0,1,"",,
+699,Selasar H1,Selasar H1,,,0,0,1,"",,
+700,Selasar H2,Selasar H2,,,0,0,1,"",,
+701,Selasar H4,Selasar H4,,,0,0,1,"",,
+702,Selasar H3,Selasar H3,,,0,0,1,"",,
+703,Selasar H7,Selasar H7,,,0,0,1,"",,
+704,LAB. KESEHATAN - EPIDEMIOLOGI,LAB. KESEHATAN - EPIDEMIOLOGI,,,10,5,1,"27","",0
+705,LAB. KESEHATAN - MIKROBIOLOGI,LAB. KESEHATAN - MIKROBIOLOGI,,,10,5,1,"27","",0
+706,LAB. KESEHATAN - LINGKUNGAN,LAB. KESEHATAN - LINGKUNGAN,,,20,10,1,"42","",0
+707,LAB. EBT,LAB. EBT,,,10,0,1,"54","",0
+708,R. TOILET,R. TOILET,,,0,0,1,"4",,
+709,R. TOILET,R. TOILET,,,0,0,1,"3",,
+710,SELASAR I.4,SELASAR I.4,,,0,0,1,"",,
+711,LAB. REKAM MEDIS ELEKTRONIK / RME,LAB. REKAM MEDIS ELEKTRONIK / RME,,,8,5,1,"20",,
+712,APOTEK,APOTEK,,,2,2,1,"4",,
+914,R. TOILET,R. TOILET,,,0,0,1,"4",,
+713,Ruang Ka.Prodi & Dosen Pasca,Ruang Ka.Prodi & Dosen Pasca,,,0,0,1,"","",0
+714,R. Ka.Prodi S3 & PDM,R. Ka.Prodi S3 & PDM,,,0,0,1,"",,
+715,Ruang Ka.Prodi S2 MM,Ruang Ka.Prodi S2 MM,,,0,0,1,"",,
+716,Ruang Ka.Prodi S2 MM,Ruang Ka.Prodi S2 MM,,,0,0,2,"",,
+717,Ruang Kuliah,Ruang Kuliah,,,10,0,1,"",,
+718,Ruang Kuliah Theater,Ruang Kuliah Theater,,,32,0,1,"",,
+719,Ruang TU Pascasarjana,Ruang TU Pascasarjana,,,0,0,1,"",,
+720,Ruang Kuliah,Ruang Kuliah,,,20,0,1,"",,
+721,Ruang Kuliah,Ruang Kuliah,,,20,0,1,"",,
+722,Ruang Kerja Mandiri,Ruang Kerja Mandiri,,,4,0,1,"",,
+723,Dapur,Dapur,,,0,0,1,"",,
+724,Ruang Server CCTV,Ruang Server CCTV,,,0,0,1,"",,
+725,TOILET 1,TOILET 1,,,0,0,1,"",,
+726,TOILET 2,TOILET 2,,,0,0,1,"",,
+727,I.5.12,I.5.12,,,0,0,2,"",,
+728,Ruang Dosen Pascasarjana,Ruang Dosen Pascasarjana,,,0,0,1,"","",0
+729,Ruang Dekanat & Sekretariat,Ruang Dekanat & Sekretariat,,,0,0,1,"",,
+730,Ruang Dekan,Ruang Dekan,,,0,0,1,"",,
+731,Ruang Sekretaris Dekan,Ruang Sekretaris Dekan,,,0,0,1,"",,
+732,Ruang Rapat FEB,Ruang Rapat FEB,,,0,0,1,"",,
+733,Ruang Amphitheater ,Ruang Amphitheater ,,,75,0,1,"",,
+734,I.6.4A,I.6.4A,,,0,0,2,"",,
+735,I.6.4B,I.6.4B,,,0,0,2,"",,
+736,DAPUR,DAPUR,,,0,0,1,"",,
+737,GUDANG,GUDANG,,,0,0,1,"",,
+738,TOILET 1,TOILET 1,,,0,0,1,"",,
+739,TOILET 2,TOILET 2,,,0,0,1,"",,
+740,I.6.9,I.6.9,,,0,0,2,"",,
+741,GENSET GEDUNG H,GENSET GEDUNG H,,,0,0,1,"",,
+742,GENSET GEDUNG A,GENSET GEDUNG A,,,0,0,1,"",,
+743,GENSET GEDUNG D,GENSET GEDUNG D,,,0,0,1,"",,
+744,Baitul Muttaqin Lt.1,Baitul Muttaqin Lt.1,,,0,0,1,"",,
+745,Baitul Ilmi Lt.1,Baitul Ilmi Lt.1,,,0,0,1,"",,
+746,Percetakan Lt.1,Percetakan Lt.1,,,0,0,1,"","",0
+747,Lab. Sistem Produksi,Lab. Sistem Produksi,,,0,0,2,"",,
+748,LAB. KKPMT,LAB. KKPMT,,,0,0,1,"",,
+749,LAB. REKAM MEDIS,-,,,0,0,1,"",,
+751,A2.2.KDR,A2.2.KDR,,,40,0,1,"0","0",0
+752,A2.3.KDR,A2.3.KDR,,,40,0,1,"",,
+753,A2.3.KDR,A2.3.KDR,,,0,0,0,"0","0",0
+754,A2.4.KDR,A2.4.KDR,,,40,0,1,"0","0",0
+755,A2.5.KDR,A2.5.KDR,,,40,0,1,"0","0",0
+756,D1.1.KDR,D1.1.KDR,,,40,0,1,"","",0
+757,D1.2.KDR,D1.2.KDR,,,40,0,1,"","",0
+758,D1.3.KDR,D1.3.KDR,,,40,0,1,"","",0
+759,D1.4.KDR,D1.4.KDR,,,40,0,1,"","",0
+760,Lab. Komputer Kediri,Lab. Komputer Kediri,,,30,0,1,"","",0
+761,Lab. Foto Kediri,Lab. Foto Kediri,,,40,0,1,"","",0
+762,COE,COE,,,0,0,1,"32",,
+763,LSP,LSP,,,0,0,1,"",,
+764,EBT,EBT,,,0,0,1,"30",,
+765,Ruang  Meeting,-,,,0,0,1,"",,
+766,TOILET PRIA,TOILET PRIA,,,0,0,1,"3",,
+767,TOILET WANITA,-,,,0,0,1,"",,
+768,DAPUR,-,,,0,0,1,"",,
+769,UDI,-,,,0,0,1,"",,
+770,Ruang Meeting,-,,,0,0,1,"",,
+771,TOILET,-,,,0,0,1,"",,
+772,LPPK,LPPK,,,0,0,0,"",,
+773,LPPK,LPPK,,,0,0,1,"","",0
+774,R. ISHOMA,-,,,0,0,1,"",,
+775,Selasar / Lobby,Selasar / Lobby,,,0,0,1,"",,
+776,Selasar / Lobby,Selasar / Lobby,,,0,0,1,"",,
+777,UPT DATA DAN INFORMASI,UPT DATA DAN INFORMASI,,,0,0,1,"",,
+778,LPPK,LPPK,,,0,0,0,"",,
+779,LPPK,LPPK,,,0,0,1,"","",0
+780,RUANG KULIAH TEORI,RUANG KULIAH TEORI,,,0,0,0,"",,
+781,RUANG KULIAH TEORI,RUANG KULIAH TEORI,,,0,0,0,"",,
+782,RUANG KULIAH TEORI,RUANG KULIAH TEORI,,,0,0,0,"",,
+783,R. RAPAT F.KES,R. RAPAT F.KES,,,10,0,1,"17",,
+784,R. DOSEN D3 RMIK - 2,R. DOSEN D3 RMIK - 2,,,8,0,1,"0",,
+785,R. DOSEN D3 RMIK - 2,R. DOSEN D3 RMIK - 2,,,8,0,1,"35",,
+788,D.4.16,-,,,40,25,1,"",,
+786,RUANG TRANSIT,RUANG TRANSIT,,,5,0,1,"16","1",1
+787,Lab Gambar Kediri,Lab Gambar Kediri,,,30,30,0,"",,
+789,Hibah KEDAIREKA,Hibah KEDAIREKA,,,0,0,1,"",,
+790,HIBAH PKKM 2022,HIBAH PKKM 2022,,,0,0,1,"",,
+791,Hibah PKKM 2022,Hibah PKKM 2022,,,0,0,1,"",,
+792,Hibah PKKM 2022,Hibah PKKM 2022,,,0,0,1,"",,
+793,CFLT,CFLT,,,8,0,2,"","1",0
+1003,RUANG TRANSIT DOSEN,RUANG TRANSIT DOSEN,,,12,0,1,"",,
+794,Hibah PKKM,Hibah PKKM,,,0,0,1,"",,
+795,ruang dosen akuntansi,-,,,0,0,1,"",,
+796,c1,-,,,0,0,1,"",,
+797,ruang sekertaris dekan,-,,,0,0,1,"",,
+798,I,-,,,0,0,1,"",,
+799,I.5,-,,,0,0,1,"",,
+800,RUANG TATA USAHA,RUANG TATA USAHA,,,8,0,1,"27",,
+801,RUANG CFLT,RUANG CFLT,,,5,0,1,"27",,
+802,RUANG GUDANG,RUANG GUDANG,,,0,0,1,"15",,
+803,RUANG DOSEN INGGRIS,RUANG DOSEN INGGRIS,,,17,0,1,"60",,
+804,RUANG DOSEN PERHOTELAN,RUANG DOSEN PERHOTELAN,,,10,0,1,"28",,
+805,RUANG DOSEN JEPANG,RUANG DOSEN JEPANG,,,10,0,1,"50",,
+806,RUANG DEKANAT,RUANG DEKANAT,,,10,0,1,"36",,
+807,STATION 1,STATION 1,,,5,0,1,"12",,
+808,STATION 2,STATION 2,,,5,0,1,"12",,
+809,STATION 3,STATION 3,,,5,0,1,"12",,
+810,STATION 4,STATION 4,,,5,0,1,"12",,
+811,STATION 5,STATION 5,,,5,0,1,"12",,
+812,B.3.1,B.3.1,,,30,25,1,"54","1",1
+813,B.3.2,B.3.2,,,30,25,1,"47",,
+814,B.3.3,B.3.3,,,30,0,1,"31",,
+815,B.3.4,B.3.4,,,30,0,1,"31",,
+816,B.3.5,B.3.5,,,30,25,1,"47",,
+817,B.3.6,B.3.6,,,30,25,1,"45",,
+818,SELASAR,SELASAR,,,0,0,1,"108",,
+819,TOILET,TOILET,,,2,0,1,"4",,
+820,B.4.1,B.4.1,,,35,25,1,"54",,
+821,B.4.2,B.4.2,,,35,25,1,"47",,
+822,B.4.3,B.4.3,,,35,25,1,"33",,
+823,B.4.4,B.4.4,,,35,25,1,"33",,
+824,B.4.5,B.4.5,,,35,25,1,"54","",0
+825,RUANG PERTEMUAN,-,,,0,0,1,"",,
+826,RUANG RAPAT,RUANG RAPAT,,,15,0,1,"38",,
+827,Ruang Galeri,Ruang Galeri,,,40,0,1,"",,
+828,Lab. Gambar Kediri,Lab. Gambar Kediri,,,40,0,1,"","",0
+829,Ruang Pimpinan,Ruang Pimpinan,,,0,0,1,"","",0
+830,Ruang Biro Akademik,Ruang Biro Akademik,,,0,0,1,"","",0
+831,Kontrol Center CCTV,Kontrol Center CCTV,,,0,0,1,"","",0
+832,Ruang Tes,Ruang Tes,,,0,0,1,"","",0
+833,Ruang Serbaguna,Ruang Serbaguna,,,0,0,1,"","",0
+834,Ruang Prodi DKV,Ruang Prodi DKV,,,0,0,1,"","",0
+835,Ruang Admisi dan BIKU,Ruang Admisi dan BIKU,,,0,0,1,"","",0
+836,Ruang Rapat,Ruang Rapat,,,0,0,1,"","",0
+837,Ruang Dosen SI,Ruang Dosen SI,,,0,0,1,"","",0
+838,Ruang Dosen Manajemen,Ruang Dosen Manajemen,,,0,0,1,"","",0
+839,R. Penjaminan Mutu & Koordinator Operasional,R. Penjaminan Mutu & Koordinator Operasional,,,0,0,1,"","",0
+840,Ruang Dosen TI,Ruang Dosen TI,,,0,0,1,"","",0
+841,A2.6.KDR,A2.6.KDR,,,0,0,0,"0","0",0
+842,Ruang Perpustakaan,Ruang Perpustakaan,,,0,0,1,"","",0
+843,Ruang Dapur,Ruang Dapur,,,0,0,1,"","",0
+844,Masjid,Masjid,,,0,0,1,"342",,
+845,Ruang Kesehatan,Ruang Kesehatan,,,0,0,1,"","",0
+846,Ruang Tamu,Ruang Tamu,,,0,0,1,"","",0
+847,Ruang Kelas,Ruang Kelas,,,0,0,1,"",,
+848,Ruang Kelas,Ruang Kelas,,,0,0,1,"",,
+849,Ruang Kelas,Ruang Kelas,,,0,0,1,"",,
+850,Ruang Kelas,Ruang Kelas,,,0,0,1,"",,
+851,RESEPTIONIS / RAPAT,RESEPTIONIS / RAPAT,,,0,0,1,"49","",0
+852,RUANG LAB. MIKROBIOLOGI,RUANG LAB. MIKROBIOLOGI,,,32,0,1,"64","",0
+853,RUANG TUTORIAL 10,RUANG TUTORIAL 10,,,0,0,1,"21","",0
+854,RUANG LAB. PARASITOLOGI,RUANG LAB. PARASITOLOGI,,,30,0,1,"51","",0
+855,RUANG LAB. FARMAKOLOGI,RUANG LAB. FARMAKOLOGI,,,30,0,1,"56","",0
+856,RUANG LAB. PATOLOGI KLINIK,RUANG LAB. PATOLOGI KLINIK,,,30,0,1,"48","",0
+858,RUANG LABORAN,RUANG LABORAN,,,0,0,1,"26","",0
+859,RUANG LAB. FISIOLOGI,RUANG LAB. FISIOLOGI,,,36,0,1,"66","",0
+860,PANTRY,PANTRY,,,0,0,1,"23","",0
+861,RUANG LAB. ANATOMI BASAH,RUANG LAB. ANATOMI BASAH,,,24,0,1,"45","",0
+862,RUANG LAB. ANATOMI KERING,RUANG LAB. ANATOMI KERING,,,0,0,1,"12","",0
+863,RUANG LAB. HISTOLOGI & PATOLOGI ANATOMI,RUANG LAB. HISTOLOGI & PATOLOGI ANATOMI,,,25,0,1,"39","",0
+864,RUANG LAB. HISTOLOGI,RUANG LAB. HISTOLOGI,,,32,0,1,"58","",0
+865,RUANG DOSEN KEDOKTERAN - S1,RUANG DOSEN KEDOKTERAN - S1,,,12,0,1,"32","",0
+866,RUANG LAB. BIOKIMIA,RUANG LAB. BIOKIMIA,,,30,0,1,"44","",0
+867,RUANG LAB. BIOMOLEKULER,RUANG LAB. BIOMOLEKULER,,,25,0,1,"39","",0
+868,HAPUS RAUANG,HAPUS RAUANG,,,0,0,1,"29","",0
+869,RUANG LAB. SKILL 1,RUANG LAB. SKILL 1,,,14,0,1,"24","",0
+870,RUANG LAB. SKILL 2,RUANG LAB. SKILL 2,,,14,0,1,"24","",0
+871,STORAGE 1,STORAGE 1,,,14,0,1,"24","",0
+872,STORAGE 2,STORAGE 2,,,14,0,1,"24","",0
+873,RUANG LAB. SKILL 3,RUANG LAB. SKILL 3,,,14,0,1,"24","",0
+874,RUANG LAB. SKILL 4,RUANG LAB. SKILL 4,,,14,0,1,"24","",0
+875,RUANG LAB. SKILL 5,RUANG LAB. SKILL 5,,,10,0,1,"16","",0
+876,RUANG LAB. SKILL 6,RUANG LAB. SKILL 6,,,10,0,1,"16","",0
+877,RUANG LAB. SKILL 7,RUANG LAB. SKILL 7,,,8,0,1,"15","",0
+878,RUANG LAB. SKILL 8,RUANG LAB. SKILL 8,,,8,0,1,"15","",0
+879,RUANG LAB. SKILL 9,RUANG LAB. SKILL 9,,,12,0,1,"17","",0
+880,RUANG LAB. SKILL 10,RUANG LAB. SKILL 10,,,14,0,1,"22","",0
+881,RUANG DOSEN PROFESI DOKTER,RUANG DOSEN PROFESI DOKTER,,,16,0,1,"15","",0
+882,RUANG TUTORIAL 1,RUANG TUTORIAL 1,,,16,0,1,"29","",0
+883,RUANG ORMAWA,RUANG ORMAWA,,,14,0,1,"21","",0
+884,RUANG BACA,RUANG BACA,,,12,0,1,"16","",0
+885,RUANG TUTORIAL 2,RUANG TUTORIAL 2,,,14,0,1,"21","",0
+886,RUANG TUTORIAL 3,RUANG TUTORIAL 3,,,14,0,1,"21","",0
+887,RUANG TUTORIAL 4,RUANG TUTORIAL 4,,,14,0,1,"21","",0
+888,RUANG TUTORIAL 5,RUANG TUTORIAL 5,,,12,0,1,"18","",0
+889,RUANG STUDIO,RUANG STUDIO,,,16,0,1,"25","",0
+890,RUANG RAPAT,RUANG RAPAT,,,0,0,1,"",,
+891,K.3.3,K.3.3,,,50,25,1,"",,
+892,RUANG KELAS II,RUANG KELAS II,,,30,25,0,"",,
+893,RUANG KELAS 3,RUANG KELAS 3,,,0,0,1,"","",0
+894,MUSHOLA,MUSHOLA,,,0,0,1,"12","",0
+895,Admisi,Admisi,,,0,0,1,"",,
+943,HAPUS,HAPUS,,,0,0,1,"",,
+944,F1. Rumah Dinas,F1. Rumah Dinas,,,0,0,1,"",,
+915,SELASAR I.1,SELASAR I.1,,,0,0,1,"77",,
+913,RUANG TATA USAHA,RUANG TATA USAHA,,,0,0,1,"","1",0
+896,SISTEM PRODUKSI,-,,,0,0,1,"",,
+897,SIMULAS,-,,,0,0,1,"",,
+898,LAB. DESAIN PRODU,-,,,0,0,1,"",,
+899,LAB. APK DAN ERGONOMI,-,,,0,0,1,"",,
+900,LAB. LINGKUNGAN,-,,,0,0,1,"",,
+901,LAB. ERP,-,,,0,0,1,"",,
+902,LIFT / ELEVATOR,-,,,0,0,1,"",,
+903,FK RS PANTIWILOSO,-,,,0,0,0,"0","0",0
+904,FK RS PANTIWILASA,FK RS PANTIWILASA,,,100,40,1,"",,
+905,Selasar Gedung D Lantai 1,-,,,0,0,0,"0","0",0
+906,Selasar Gedung D Lantai 2,-,,,0,0,0,"0","0",0
+907,Selasar Gedung D Lantai 3,-,,,0,0,0,"0","0",0
+908,Selasar Gedung D Lantai 4,-,,,0,0,0,"0","0",0
+909,Selasar Gedung D Lantai 5,-,,,0,0,0,"0","0",0
+910,Selasar Gedung K Lt.3,Selasar Gedung K Lt.3,,,0,0,1,"","",0
+911,Selasar Gedung K Lt.2,Selasar Gedung K Lt.2,,,0,0,1,"","",0
+912,Selasar Gedung K Lt.1 ,Selasar Gedung K Lt.1 ,,,0,0,1,"",,
+916,Selasar Gedung H Lantai 1,-,,,0,0,0,"0","0",0
+917,Selasar Gedung H Lantai 2,-,,,0,0,1,"","",0
+918,Selasar Gedung H Lantai 4,-,,,0,0,0,"0","0",0
+919,Selasar Gedung H Lantai 5,-,,,0,0,0,"0","0",0
+920,Selasar Gedung H Lantai 7,-,,,0,0,0,"0","0",0
+921,Selasar Gedung H Lantai 6,-,,,0,0,0,"0","0",0
+922,Selasar Gedung D Lantai 1,-,,,0,0,0,"0","0",0
+923,Ruang Gudang Besar,Ruang Gudang Besar,,,0,0,1,"",,
+924,Selasar,Selasar,,,0,0,1,"","",0
+925,Selasar A1 Kediri,Selasar A1 Kediri,,,0,0,1,"",,
+926,Selasar A2 Kediri,Selasar A2 Kediri,,,0,0,1,"",,
+927,Selasar B1 Kediri,Selasar B1 Kediri,,,0,0,1,"",,
+928,Selasar C1 Kediri,Selasar C1 Kediri,,,0,0,1,"",,
+929,Selasar C2 Kediri,Selasar C2 Kediri,,,0,0,1,"",,
+930,Selasar D1 Kediri,Selasar D1 Kediri,,,0,0,1,"",,
+931,Selasar E1 Kediri,Selasar E1 Kediri,,,0,0,1,"",,
+932,Selasar E2 Kediri,Selasar E2 Kediri,,,0,0,1,"",,
+933,Selasar Utama Kediri,-,,,0,0,1,"",,
+934,H.4.3,H.4.3,,,40,25,1,"15",,
+935,H.4.6,H.4.6,,,40,25,1,"",,
+936,H.5.3,H.5.3,,,40,25,1,"35",,
+937,H.5.6,H.5.6,,,40,25,1,"35",,
+1015,H.5.16,H.5.16,,,10,10,1,"20",,
+941,R. Riset,R. Riset,,,15,0,1,"15",,
+942,BI CORNER,BI CORNER,,,0,0,0,"0","0",0
+945,Ruang Meeting,Ruang Meeting,,,0,0,1,"",,
+946,Ruang Principals,Ruang Principals,,,0,0,1,"",,
+947,Ruang Guru,Ruang Guru,,,0,0,1,"",,
+948,Ruang Administrasi,Ruang Administrasi,,,0,0,1,"",,
+949,Ruang Konsultasi,Ruang Konsultasi,,,0,0,1,"",,
+950,Ruang Server,Ruang Server,,,0,0,1,"",,
+951,Ruang UKS,Ruang UKS,,,0,0,1,"",,
+952,Play Group,Play Group,,,0,0,1,"",,
+953,Preschool A,Preschool A,,,0,0,1,"",,
+954,Preschool B,Preschool B,,,0,0,1,"",,
+955,Grade 1,Grade 1,,,0,0,1,"",,
+956,Grade 2,Grade 2,,,0,0,1,"",,
+957,Grade 7,Grade 7,,,0,0,1,"",,
+958,Lab. Kimia,Lab. Kimia,,,0,0,1,"",,
+959,Lab. Fisika,Lab. Fisika,,,0,0,1,"",,
+960,Lab. Biologi,Lab. Biologi,,,0,0,1,"",,
+961,Ruang Seni/ Musik,Ruang Seni/ Musik,,,0,0,1,"",,
+962,Ruang AULA,Ruang AULA,,,0,0,1,"",,
+963,Grade 3,Grade 3,,,0,0,1,"",,
+964,Grade 4,Grade 4,,,0,0,1,"",,
+965,Grade 5,Grade 5,,,0,0,1,"",,
+966,Grade 6,Grade 6,,,0,0,1,"",,
+967,Grade 8,Grade 8,,,0,0,1,"",,
+968,Grade 9,Grade 9,,,0,0,1,"",,
+969,Grade 10,Grade 10,,,0,0,1,"",,
+970,Grade 11,Grade 11,,,0,0,1,"",,
+971,Grade 12,Grade 12,,,0,0,1,"",,
+972,Ruang ICT,Ruang ICT,,,0,0,1,"",,
+973,Ruang OSIS,Ruang OSIS,,,0,0,1,"",,
+974,Ruang CCTV,-,,,0,0,1,"",,
+975,Gudang D.2,Gudang D.2,,,0,0,1,"",,
+976,Lab. D.1.1,Lab. D.1.1,,,0,0,1,"",,
+977,ORMAWA,ORMAWA,,,30,0,1,"36",,
+1002,Kaprogdi Pasca Akuntansi,Kaprogdi Pasca Akuntansi,,,5,0,1,"",,
+978,SELASAR,SELASAR,,,0,0,1,"108",,
+979,TOILET,TOILET,,,2,0,1,"",,
+980,PANTRY,PANTRY,,,0,0,1,"10",,
+981,TOILET,TOILET,,,0,0,1,"4",,
+982,KORIDOR,KORIDOR,,,0,0,1,"93",,
+983,HALL,HALL,,,0,0,1,"56",,
+984,STATION 6,STATION 6,,,5,0,1,"12",,
+985,STATION 7,STATION 7,,,5,0,1,"12",,
+986,STATION 8,STATION 8,,,5,0,1,"15",,
+987,STATION 9,STATION 9,,,5,0,1,"12",,
+988,STATION 10,STATION 10,,,5,0,1,"12",,
+989,STATION 11,STATION 11,,,5,0,1,"12",,
+990,STATION 12,STATION 12,,,5,0,1,"12",,
+991,RUANG BRIEFING,RUANG BRIEFING,,,55,0,1,"60",,
+992,RUANG MONITOR,RUANG MONITOR,,,2,0,1,"10",,
+993,RUANG ISTIRAHAT,RUANG ISTIRAHAT,,,5,0,1,"10",,
+994,RUANG STORAGE 1,RUANG STORAGE 1,,,0,0,1,"10",,
+995,RUANG STORAGE 2,RUANG STORAGE 2,,,0,0,1,"10",,
+996,R. SIMULASI PASIEN,R. SIMULASI PASIEN,,,5,0,1,"10",,
+997,TOILET,TOILET,,,0,0,1,"4",,
+998,HALL,HALL,,,0,0,1,"41",,
+999,BALKON,BALKON,,,0,0,1,"36",,
+1001,Selasar Gedung C L1,Selasar Gedung C L1,,,0,0,1,"","",0
+1004,Cafetaria Gd D,Cafetaria Gd D,,,0,0,1,"",,
+1005,K.3.7,K.3.7,,,30,25,1,"",,
+1006,RUANG TUTORIAL 9,RUANG TUTORIAL 9,,,0,0,1,"",,
+1007,RUANG DEKANAT,RUANG DEKANAT,,,10,0,1,"",,
+1008,RUANG TUTORIAL 7,-,,,20,0,1,"",,
+1009,RUANG TUTORIAL 8,RUANG TUTORIAL 8,,,20,20,1,"",,
+1010,RUANG TUTORIAL 6,RUANG TUTORIAL 6,,,20,20,1,"",,
+1011,Ruang Kelas,-,,,40,0,1,"",,
+1012,Ruang Kelas,-,,,40,0,0,"",,
+1013,-,-,,,0,0,1,"",,
+1016,Ruang Lab Terpadu FT,Ruang Lab Terpadu FT,,,0,0,1,"",,
+1017,CO Working Space & Lab,CO Working Space & Lab,,,0,0,1,"",,

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('ta');
             $table->string('nim_dinus', 50);
-            $table->string('spp_bank', 11)->nullable();
+            $table->string('spp_bank', 25)->nullable();
             $table->boolean('spp_bayar')->default(0);
             $table->dateTime('spp_bayar_date')->nullable();
             $table->integer('spp_dispensasi')->nullable();
