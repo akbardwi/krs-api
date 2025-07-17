@@ -320,4 +320,129 @@ class Krs extends Controller
         // For now, we assume different sesi numbers don't conflict
         return false;
     }
+
+    /**
+     * Remove mata kuliah from student KRS
+     */
+    public function removeMatakuliah(Request $request, $nim, $schedule_id)
+    {
+        // Get active tahun ajaran
+        $ta = TahunAjaran::where('set_aktif', 1)->first();
+        if (!$ta) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Tahun ajaran aktif tidak ditemukan',
+            ], 404);
+        }
+
+        try {
+            DB::beginTransaction();
+
+            // 1. Validation: Check if mahasiswa exists
+            $mahasiswa = MahasiswaDinus::where('nim_dinus', $nim)->first();
+            if (!$mahasiswa) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Mahasiswa dengan NIM ' . $nim . ' tidak ditemukan',
+                ], 404);
+            }
+
+            // 2. Find KRS record based on nim, ta, and schedule_id
+            $krsRecord = KrsRecord::where('nim_dinus', $nim)
+                ->where('ta', $ta->kode)
+                ->where('id_jadwal', $schedule_id)
+                ->with(['jadwalTawar', 'matkulKurikulum'])
+                ->first();
+
+            if (!$krsRecord) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'KRS record tidak ditemukan untuk mata kuliah dengan jadwal ID ' . $schedule_id,
+                ], 404);
+            }
+
+            // 3. Business Logic: Check if KRS belum tervalidasi
+            // Assuming 'V' status means validated, anything else means not validated yet
+            if ($krsRecord->sts === 'V') {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Tidak dapat menghapus mata kuliah yang sudah tervalidasi',
+                ], 400);
+            }
+
+            // 4. Get jadwal tawar for quota update
+            $jadwal = $krsRecord->jadwalTawar;
+            if (!$jadwal) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Jadwal tawar tidak ditemukan',
+                ], 404);
+            }
+
+            // Store data for logging and response before deletion
+            $deletedData = [
+                'krs_record_id' => $krsRecord->id,
+                'nim_dinus' => $krsRecord->nim_dinus,
+                'kdmk' => $krsRecord->kdmk,
+                'id_jadwal' => $krsRecord->id_jadwal,
+                'mata_kuliah' => $krsRecord->matkulKurikulum,
+                'jadwal' => $jadwal,
+            ];
+
+            // 5. Delete KRS record
+            KrsRecord::withoutGlobalScopes()->where('id', $krsRecord->id)->delete();
+            // $krsRecord->delete();
+
+            // 6. Update quota availability - increment jsisa
+            $jadwal->increment('jsisa');
+
+            // 7. Basic logging to krs_record_log
+            KrsRecordLog::create([
+                'id_krs' => $deletedData['krs_record_id'],
+                'nim_dinus' => $deletedData['nim_dinus'],
+                'kdmk' => $deletedData['kdmk'],
+                'aksi' => 2, // 2 = delete
+                'id_jadwal' => $deletedData['id_jadwal'],
+                'ip_addr' => $request->ip(),
+                'lastUpdate' => now(),
+            ]);
+
+            // Basic logging to application logs
+            Log::info('KRS mata kuliah removed', [
+                'nim_dinus' => $deletedData['nim_dinus'],
+                'kdmk' => $deletedData['kdmk'],
+                'id_jadwal' => $deletedData['id_jadwal'],
+                'ta' => $ta->kode,
+                'ip_address' => $request->ip(),
+            ]);
+
+            DB::commit();
+
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Mata kuliah berhasil dihapus dari KRS',
+                'data' => [
+                    'deleted_mata_kuliah' => $deletedData['mata_kuliah'],
+                    'deleted_jadwal' => $deletedData['jadwal'],
+                    'updated_quota' => $jadwal->jsisa,
+                ],
+            ], 200);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            
+            Log::error('Error removing mata kuliah from KRS', [
+                'nim_dinus' => $nim,
+                'schedule_id' => $schedule_id,
+                'error' => $e->getMessage(),
+                'ip_address' => $request->ip(),
+            ]);
+
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Terjadi kesalahan saat menghapus mata kuliah dari KRS',
+                'error' => $e->getMessage(),
+            ], 500);
+        }
+    }
 }
