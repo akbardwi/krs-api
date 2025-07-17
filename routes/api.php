@@ -10,6 +10,7 @@ Route::get('/user', function (Request $request) {
 Route::prefix('v1/students/{nim}/')->group(function () {
     Route::prefix('krs')->group(function () {
         Route::get('current', [App\Http\Controllers\Api\V1\Krs::class, 'currentKrs'])->name('api.v1.krs.current');
+        Route::get('status', [App\Http\Controllers\Api\V1\Krs::class, 'krsStatus'])->name('api.v1.krs.status');
         Route::post('courses', [App\Http\Controllers\Api\V1\Krs::class, 'courseRegistration'])->name('api.v1.krs.add-matakuliah');
         Route::delete('courses/{schedule_id}', [App\Http\Controllers\Api\V1\Krs::class, 'removeMatakuliah'])->name('api.v1.krs.remove-matakuliah');
     });

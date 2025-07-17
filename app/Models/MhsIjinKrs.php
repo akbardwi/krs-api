@@ -16,4 +16,20 @@ class MhsIjinKrs extends Model
     ];
 
     public $timestamps = false;
+
+    /**
+     * Relationship to MahasiswaDinus
+     */
+    public function mahasiswa()
+    {
+        return $this->belongsTo(MahasiswaDinus::class, 'nim_dinus', 'nim_dinus');
+    }
+
+    /**
+     * Relationship to TahunAjaran
+     */
+    public function tahunAjaran()
+    {
+        return $this->belongsTo(TahunAjaran::class, 'ta', 'kode');
+    }
 }

@@ -23,4 +23,20 @@ class ValidasiKrsMhs extends Model
 
     // Disable auto-incrementing for the primary key
     public $incrementing = true; // This is set to true as id is an auto-incrementing integer
+
+    /**
+     * Relationship to MahasiswaDinus
+     */
+    public function mahasiswa()
+    {
+        return $this->belongsTo(MahasiswaDinus::class, 'nim_dinus', 'nim_dinus');
+    }
+
+    /**
+     * Relationship to TahunAjaran
+     */
+    public function tahunAjaran()
+    {
+        return $this->belongsTo(TahunAjaran::class, 'ta', 'kode');
+    }
 }

@@ -9,6 +9,9 @@ use App\Models\JadwalTawar;
 use App\Models\MatkulKurikulum;
 use App\Models\MahasiswaDinus;
 use App\Models\KrsRecordLog;
+use App\Models\ValidasiKrsMhs;
+use App\Models\MhsIjinKrs;
+use App\Models\IpSemester;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
@@ -45,6 +48,145 @@ class Krs extends Controller
             'status' => 'success',
             'data' => $krs,
             'ta' => $ta->kode
+        ]);
+    }
+
+    /**
+     * Student KRS Status
+     */
+    public function krsStatus($nim)
+    {
+        // Get active tahun ajaran
+        $ta = TahunAjaran::where('set_aktif', 1)->first();
+        if (!$ta) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Tahun ajaran aktif tidak ditemukan',
+            ], 404);
+        }
+
+        // 1. Validation: Check if mahasiswa exists
+        $mahasiswa = MahasiswaDinus::where('nim_dinus', $nim)->first();
+        if (!$mahasiswa) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Mahasiswa dengan NIM ' . $nim . ' tidak ditemukan',
+            ], 404);
+        }
+
+        // 2. Get current KRS records
+        $krsRecords = KrsRecord::where('nim_dinus', $nim)
+            ->where('ta', $ta->kode)
+            ->with(['jadwalTawar', 'matkulKurikulum'])
+            ->get();
+
+        // 3. Calculate total SKS for current semester
+        $totalSks = $krsRecords->sum('sks');
+
+        // 4. Check KRS validation status
+        $validasiKrs = ValidasiKrsMhs::where('nim_dinus', $nim)
+            ->where('ta', $ta->kode)
+            ->first();
+
+        $isValidated = !is_null($validasiKrs);
+        $validationDate = $validasiKrs ? $validasiKrs->job_date : null;
+
+        // 5. Check KRS permission/authorization
+        $ijinKrs = MhsIjinKrs::where('nim_dinus', $nim)
+            ->where('ta', $ta->kode)
+            ->first();
+
+        $isAuthorized = $ijinKrs ? (bool)$ijinKrs->ijinkan : false;
+
+        // 6. Get current semester IPS (if available)
+        $currentIps = IpSemester::where('nim_dinus', $nim)
+            ->where('ta', $ta->kode)
+            ->first();
+
+        // 7. Get previous semester IPS (last semester before current ta)
+        $previousIps = IpSemester::where('nim_dinus', $nim)
+            ->where('ta', '<', $ta->kode)
+            ->orderBy('ta', 'desc')
+            ->first();
+
+        // 8. Count courses by status
+        $coursesByStatus = [
+            'total' => $krsRecords->count(),
+            'belum_validasi' => $krsRecords->where('sts', '!=', 'V')->count(),
+            'sudah_validasi' => $krsRecords->where('sts', '=', 'V')->count(),
+            'baru' => $krsRecords->where('sts', '=', 'B')->count(),
+        ];
+
+        // 9. Calculate overall KRS status
+        $krsStatus = 'tidak_lengkap';
+        if ($isValidated && $totalSks > 0) {
+            $krsStatus = 'tervalidasi';
+        } elseif ($totalSks > 0 && $isAuthorized) {
+            $krsStatus = 'lengkap_belum_validasi';
+        } elseif ($totalSks > 0) {
+            $krsStatus = 'ada_mata_kuliah';
+        }
+
+        return response()->json([
+            'status' => 'success',
+            'data' => [
+                'mahasiswa' => [
+                    'nim_dinus' => $mahasiswa->nim_dinus,
+                    'nama' => $mahasiswa->nm_mhs,
+                    'prodi' => $mahasiswa->prodi,
+                ],
+                'tahun_ajaran' => [
+                    'kode' => $ta->kode,
+                    'nama' => $ta->nama,
+                    'semester' => $ta->semester,
+                    'aktif' => (bool)$ta->set_aktif,
+                ],
+                'krs_summary' => [
+                    'status' => $krsStatus,
+                    'total_sks' => $totalSks,
+                    'total_mata_kuliah' => $coursesByStatus['total'],
+                    'is_validated' => $isValidated,
+                    'validation_date' => $validationDate,
+                    'is_authorized' => $isAuthorized,
+                    'courses_by_status' => $coursesByStatus,
+                ],
+                'ip_semester' => [
+                    'current' => $currentIps ? [
+                        'ta' => $currentIps->ta,
+                        'sks' => $currentIps->sks,
+                        'ips' => $currentIps->ips,
+                        'last_update' => $currentIps->last_update,
+                    ] : null,
+                    'previous' => $previousIps ? [
+                        'ta' => $previousIps->ta,
+                        'sks' => $previousIps->sks,
+                        'ips' => $previousIps->ips,
+                        'last_update' => $previousIps->last_update,
+                    ] : null,
+                ],
+                'krs_details' => $krsRecords->map(function ($krs) {
+                    return [
+                        'id' => $krs->id,
+                        'kdmk' => $krs->kdmk,
+                        'mata_kuliah' => $krs->matkulKurikulum ? [
+                            'kdmk' => $krs->matkulKurikulum->kdmk,
+                            'nama' => $krs->matkulKurikulum->nmmk,
+                            'sks' => $krs->matkulKurikulum->sks,
+                            'semester' => $krs->matkulKurikulum->smt,
+                        ] : null,
+                        'jadwal' => $krs->jadwalTawar ? [
+                            'id' => $krs->jadwalTawar->id,
+                            'klpk' => $krs->jadwalTawar->klpk,
+                            'dosen' => $krs->jadwalTawar->kdds,
+                            'hari1' => $krs->jadwalTawar->id_hari1,
+                            'sesi1' => $krs->jadwalTawar->id_sesi1,
+                            'ruang1' => $krs->jadwalTawar->id_ruang1,
+                        ] : null,
+                        'status' => $krs->sts,
+                        'sks' => $krs->sks,
+                    ];
+                }),
+            ],
         ]);
     }
 
