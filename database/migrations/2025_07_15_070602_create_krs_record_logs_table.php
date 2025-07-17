@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('ip_addr', 50)->nullable();
             $table->timestamp('lastUpdate')->useCurrent();
 
-            $table->foreign('id_krs')->references('id')->on('krs_record');
+            $table->foreign('id_krs')->references('id')->on('krs_record')->onDelete('no action');
             $table->foreign('nim_dinus')->references('nim_dinus')->on('mahasiswa_dinus');
             $table->foreign('kdmk')->references('kdmk')->on('matkul_kurikulum');
         });

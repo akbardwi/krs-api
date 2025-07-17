@@ -31,4 +31,28 @@ class JadwalTawar extends Model
     ];
 
     public $timestamps = false;
+
+    /**
+     * Relationship to KrsRecord
+     */
+    public function krsRecords()
+    {
+        return $this->hasMany(KrsRecord::class, 'id_jadwal', 'id');
+    }
+
+    /**
+     * Relationship to MatkulKurikulum
+     */
+    public function matkulKurikulum()
+    {
+        return $this->belongsTo(MatkulKurikulum::class, 'kdmk', 'kdmk');
+    }
+
+    /**
+     * Relationship to TahunAjaran
+     */
+    public function tahunAjaran()
+    {
+        return $this->belongsTo(TahunAjaran::class, 'ta', 'kode');
+    }
 }

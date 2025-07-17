@@ -19,4 +19,36 @@ class KrsRecord extends Model
     ];
 
     public $timestamps = false;
+
+    /**
+     * Relationship to JadwalTawar
+     */
+    public function jadwalTawar()
+    {
+        return $this->belongsTo(JadwalTawar::class, 'id_jadwal', 'id');
+    }
+
+    /**
+     * Relationship to MatkulKurikulum
+     */
+    public function matkulKurikulum()
+    {
+        return $this->belongsTo(MatkulKurikulum::class, 'kdmk', 'kdmk');
+    }
+
+    /**
+     * Relationship to MahasiswaDinus
+     */
+    public function mahasiswa()
+    {
+        return $this->belongsTo(MahasiswaDinus::class, 'nim_dinus', 'nim_dinus');
+    }
+
+    /**
+     * Relationship to TahunAjaran
+     */
+    public function tahunAjaran()
+    {
+        return $this->belongsTo(TahunAjaran::class, 'ta', 'kode');
+    }
 }
